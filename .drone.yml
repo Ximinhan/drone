@@ -25,8 +25,3 @@ steps:
     tags: [ 1, 1.1, latest ]
     registry: index.docker.io
 
-- name: notify
-  image: plugins/slack
-  settings:
-    channel: developers
-    username: drone
