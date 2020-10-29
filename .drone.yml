@@ -10,7 +10,6 @@ steps:
   commands:
     - go get
     - go build
-    - go test
 
 - name: frontend
   image: node:6
