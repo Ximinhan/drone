@@ -9,6 +9,6 @@ steps:
   image: plugins/docker
   settings:
     repo: octocat/hello-world
-    tags: [ 1, 1.1, latest ]
+    tags: [ latest ]
     registry: index.docker.io
 
